@@ -5,19 +5,12 @@ import Question4 from "./components/Question4";
 
 function App() {
   return (
+    <div>
+      <Question2 />
 
-<div>
-      <article style={{ height: "100vh", overflowY: "scroll" }}>
-        <Question2 />
-      </article>
-      
-      <article style={{ height: "100vh", overflowY: "scroll" }}>
-        <Question3 />
-      </article>
+      <Question3 />
 
-      <article style={{ height: "100vh", overflowY: "scroll" }}>
-        <Question4 />
-      </article>
+      <Question4 />
     </div>
   );
 }
