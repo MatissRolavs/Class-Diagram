@@ -4,13 +4,13 @@ import "./Questions.css";
 const Question1 = () => {
     return (
         <article>
-            <div>
+            <div className="question-text">
                 <h2>Kas ir klases diagramma?</h2>
-                <p>Tā ir diagramma, kura attēlo klašu informāciju pārskatāmā veidā.</p>
+                <p className="question-text">Tā ir diagramma, kura attēlo klašu informāciju pārskatāmā veidā.</p>
             </div>
-            <div>
+            <div className="question-text">
                 <h2>Struktūras vai uzvedības modeļa daļa?</h2>
-                <p>Klases diagrammas ir struktūras modeļa daļa - attēlo klases, to īpašības un savstarpējās attiecības.</p>
+                <p className="question-text">Klases diagrammas ir struktūras modeļa daļa - attēlo klases, to īpašības un savstarpējās attiecības.</p>
             </div>
         </article>
       );

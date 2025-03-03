@@ -1,7 +1,9 @@
 import React from "react";
 import "./Questions.css";
+import "./image.png";
 const Question4 = () => {
   return (
+
     <article
       style={{
         height: "100vh",
@@ -13,6 +15,8 @@ const Question4 = () => {
         <p className="question-text">Ja</p>
       </div>
     </article>
+
+   
   );
 };
 
